@@ -1,9 +1,11 @@
-import 'banner.css';
+import './banner.css';
 
 export const Banner = () =>{
     return(
-        <header classnamer="banner">
-            <h1>Teste banner</h1>
-        </header>
+        <div className="banner">
+            <img src="/imagens/banner.png" alt="banner principal"/>
+        </div>
+            
+        
     )
 }
