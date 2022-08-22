@@ -2,20 +2,14 @@
     background-repeat: no-repeat;
     
     height: 720px;
-    background-image: url('../../../public/imagens/Banner.png');
+    background-image: url('../../../public/imagens/banner.png');
     background-size:auto;
     background-attachment: fixed;
     background-position: top;
-
-    
-    
-    
-    
 }
 .banner h1{
     text-align: center;
 }
 .banner img{
     width: 100%;
-    
 }
