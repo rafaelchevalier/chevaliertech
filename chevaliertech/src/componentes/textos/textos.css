@@ -1,0 +1,6 @@
+.cabecalho{
+    float: left;
+    text-align: center;
+    position: static;    
+    padding-top: 50%;   
+}

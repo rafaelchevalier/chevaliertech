@@ -1,3 +1,4 @@
+
 .menu{
     color: darkred;
 }
@@ -17,10 +18,10 @@
     float: left;
 }
 
-.menu-login li {
-    float:right;   
+.menu li a :hover{
+    background-color: #111;
 }
-.menu li a:hover{
+.menu li button:hover{
     background-color: #111;
 }
 .menu a{
@@ -30,7 +31,14 @@
     padding: 14px 16px;
     text-decoration: none;
 }
-
+.menu button{
+    display: block;
+    color: white;
+    background-color: #333;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
 .active{
     background-color: #04AA6D
 }
