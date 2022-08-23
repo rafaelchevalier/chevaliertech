@@ -21,26 +21,15 @@ function clickBanner(){
         <div className="content_menu">
             <nav className="menu">
                 <ul>
-                    <li className="menu-li" ><button type="button" onClick={clickHome} >Home</button></li>
-                    <li className="menu-li" ><button type="button" onClick={clickBanner} >Banner</button></li>
+                    <li className="menu-li" ><a onClick={clickHome} >Home</a></li>
+                    <li className="menu-li" ><a onClick={clickBanner} >Banner</a></li>
                     <li className="menu-li"><a href="#">Portifólio</a></li>
                     <li className="menu-li"><a href="#">Contato</a></li>
                     <li className="active"><a href="admin">LOGIN</a></li>
                 </ul>
             </nav>
             
-            {banner && (
-                <div>
-                <Banner />
-                </div>
-            )}
             
-            
-            {home && (
-                <div>    
-                <Home />
-                </div>
-            )}
             
             
             
