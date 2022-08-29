@@ -35,9 +35,6 @@ function App() {
   classeMenuPortifolio = "menu-li";
   classeMenuContato = "menu-li";
   classeMenuLogin = "menu-li";
-
-  console.log("Home");
-  console.log(classeMenuHome);
 }
 function clickPortifolio(){
   setHome(false); 
@@ -49,8 +46,6 @@ function clickPortifolio(){
   classeMenuPortifolio = "active";
   classeMenuContato = "menu-li";
   classeMenuLogin = "menu-li";
-  console.log("Home");
-  console.log(classeMenuHome);
 }
 function clickContato(){
   setHome(false); 
