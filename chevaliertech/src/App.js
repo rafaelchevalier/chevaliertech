@@ -1,5 +1,5 @@
 import {useState} from 'react';
-import { Banner } from './componentes/banner/Banner';
+import {Banner} from './componentes/banner/Banner';
 import {Home} from './componentes/home/Home';
 import {Portifolio} from './componentes/portifolio/portifolio';
 import {Contato} from './componentes/contato/contato';
